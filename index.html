@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official website for auto parts exhibition | Automobile parts, engine parts, mechanical parts</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{font-family:Arial,sans-serif;color:#333;line-height:1.6;}
+        /* Head navigation */
+        header{background:#1a2b48;color:#fff;padding:15px 0;}
+        .container{width:90%;margin:auto;max-width:1200px;}
+        .logo{font-size:24px;font-weight:bold;}
+        nav{margin-top:10px;}
+        nav a{color:#fff;text-decoration:none;margin-right:25px;}
+        nav a:hover{color:#f39c12;}
+        /* banner */
+        .banner{background:url('https://img.icons8.com/fluency/800/000000/car.png') #2c3e50 no-repeat center;background-size:cover;color:white;text-align:center;padding:80px 20px;}
+        .banner h1{font-size:36px;margin-bottom:15px;}
+        .banner p{font-size:18px;max-width:700px;margin:auto;}
+        .btn{display:inline-block;background:#f39c12;color:#fff;padding:10px 25px;border-radius:5px;text-decoration:none;margin-top:20px;}
+        /* 板块通用 */
+        .section{padding:60px 0;}
+        .title{text-align:center;font-size:28px;margin-bottom:40px;color:#1a2b48;}
+        /* product list */
+        .product-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;}
+        .product-card{border:1px solid #eee;padding:15px;text-align:center;transition:0.3s;}
+        .product-card:hover{box-shadow:0 0 10px #ccc;}
+        .product-card img{width:100px;height:100px;object-fit:contain;margin-bottom:10px;}
+        /* About Us */
+        .about{background:#f8f8f8;}
+        /* contact us */
+        .contact-info{line-height:2.2;font-size:16px;}
+        /* page footer */
+        footer{background:#1a2b48;color:#fff;text-align:center;padding:20px 0;}
+    </style>
+</head>
+<body>
+
+<!-- 头部 -->
+<header>
+    <div class="container">
+        <div class="logo">Auto parts Exhibition center</div>
+        <nav>
+            <a href="#home">home page</a>
+            <a href="#product">product center</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">contact us</a>
+        </nav>
+    </div>
+</header>
+
+<!-- 横幅 -->
+<section class="banner" id="home">
+    <div class="container">
+        <h1>Professional supplier of automotive parts and industrial accessories</h1>
+        <p>One-stop display of engine parts, chassis parts, electrical parts and construction machinery parts</p>
+        <a href="#product" class="btn">view item</a>
+    </div>
+</section>
+
+<!-- product center -->
+<section class="section" id="product">
+    <div class="container">
+        <h2 class="title">product center</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="https://img.icons8.com/color/100/engine.png" alt="engine fittings">
+                <h3>engine fittings</h3>
+                <p>Piston, cylinder liner, crankshaft, connecting rod, seal</p>
+            </div>
+            <div class="product-card">
+                <img src="https://img.icons8.com/color/100/suspension.png" alt="chassis fittings">
+                <h3>Chassis walking accessories</h3>
+                <p>Shock absorbers, suspensions, ball joints, control arms, bearings</p>
+            </div>
+            <div class="product-card">
+                <img src="https://img.icons8.com/color/100/car-battery.png" alt="automotive electrical appliance">
+                <h3>Automobile electrical accessories</h3>
+                <p>Generator, starter, wiring harness, sensor, switch</p>
+            </div>
+            <div class="product-card">
+                <img src="https://img.icons8.com/color/100/tires.png" alt="rubber part">
+                <h3>Rubber and rubber plastic accessories</h3>
+                <p>Rubber hoses, sealing strips, shock-absorbing rubber sleeves, PP plastic parts</p>
+            </div>
+            <div class="product-card">
+                <img src="https://img.icons8.com/color/100/fuel-pump.png" alt="fuel system">
+                <h3>Fuel system accessories</h3>
+                <p>Oil pump, filter element, fuel injector, pipeline fittings</p>
+            </div>
+            <div class="product-card">
+                <img src="https://img.icons8.com/color/100/industrial-scooter.png" alt="Construction machinery parts">
+                <h3>Construction machinery parts</h3>
+                <p>Garden machinery, power equipment, general mechanical parts</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Us -->
+<section class="section about" id="about">
+    <div class="container">
+        <h2 class="title">About Us</h2>
+        <p style="text-align:center;max-width:800px;margin:auto;font-size:17px;">
+            Our company focuses on the research and development and display of automotive parts and construction machinery accessories. Our products cover the full range of accessories for passenger cars, commercial vehicles and construction machinery equipment.
+We support foreign trade order taking, customized processing, and accessory supply. With stable quality and a complete range of products, we are suitable for global customers to consult and cooperate.
+        </p>
+    </div>
+</section>
+
+<!-- contact us -->
+<section class="section" id="contact">
+    <div class="container">
+        <h2 class="title">contact us</h2>
+        <div class="contact-info" style="text-align:center;">
+            <p>📞 Whatsapp：+8615203050367</p>
+            <p>📩 Email：sales9@oakon-tech.com</p>
+            <p>📍 Address：3101 Zhenye Xinghai Square，Nanshan，Shenzhen,CHINA</p>
+            <p>🌐Professional：Foreign trade auto parts, customized parts, sample matching</p>
+        </div>
+    </div>
+</section>
+
+<!-- 页脚 -->
+<footer>
+    <div class="container">
+        <p>© 2026 The official website for auto parts and components display  | All Rights Reserved</p>
+    </div>
+</footer>
+
+</body>
+</html>
